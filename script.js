@@ -7,8 +7,8 @@ var item_field = document.getElementById('item_field');
 add_more_fields.onclick = function(){
     var newField = document.createElement('input');
     newField.setAttribute('type','text');
-    newField.setAttribute('name','survey_options[]');
-    newField.setAttribute('class','survey_options');
+    newField.setAttribute('name','gobeli_orders[]');
+    newField.setAttribute('class','gobeli_orders');
     newField.setAttribute('siz',50);
     newField.setAttribute('placeholder','Another Field');
     survey_options.appendChild(newField);
